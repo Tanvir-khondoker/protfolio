@@ -2,7 +2,7 @@
 import { FaBars, FaTimes, FaLinkedin, FaGithub } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
-import Logo from "../../assets/logo1.png";
+// import Logo from "../../assets/logo1.png";
 import { useState } from "react";
 
 const Navbar = () => {
@@ -11,10 +11,10 @@ const Navbar = () => {
     setNav(!nav);
   };
   return (
-    <div className=" fixed w-full h-20 flex justify-between items-center px-1 bg-[#0a192f] text-white">
-      <div>
-        <img className="h-16 rounded-2xl" src={Logo} alt="" />
-      </div>
+    <div className=" fixed w-full h-20 flex justify-between items-center px-1 bg-[#0a192f] text-white mb-28">
+      <ul>
+        <li className="font-bold text-3xl">DevTanvir</li>
+      </ul>
       {/* main */}
       <ul className=" hidden md:flex">
         <li>Home</li>
@@ -45,7 +45,7 @@ const Navbar = () => {
       </ul>
 
       {/* social  */}
-      <div className="fixed flex flex-col top-[35%] left-0">
+      <div className="hidden lg:flex fixed flex-col top-[35%] left-0">
         <ul>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600">
             <a
