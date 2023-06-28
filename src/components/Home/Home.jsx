@@ -1,5 +1,7 @@
+/* eslint-disable react/no-unescaped-entities */
+import { FaDownload } from "react-icons/fa";
 import { HiArrowNarrowRight } from "react-icons/hi";
-import formal_profile from "../../assets/personal/formal_profile.jpg";
+// import formal_profile from "../../assets/personal/formal_profile.jpg";
 
 const Home = () => {
   return (
@@ -22,8 +24,8 @@ const Home = () => {
               <HiArrowNarrowRight className="ml-3 " />
             </span>
           </button>
-          <button className="text-white group border-2 px-6 py-3 my-2  hover:bg-green-600 hover:border-green-600">
-            Download Resume
+          <button className="text-white group border-2 px-6 py-3 my-2 flex items-center gap-2  hover:bg-green-600 hover:border-green-600">
+            Download Resume <FaDownload/>
           </button>
         </div>
       </div>
