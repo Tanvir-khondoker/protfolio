@@ -11,7 +11,7 @@ const Navbar = () => {
     setNav(!nav);
   };
   return (
-    <div className=" fixed w-full h-20 flex justify-between items-center px-1 bg-[#0a192f] text-white mb-28">
+    <div className=" fixed w-full h-20 flex justify-between items-center px-12 bg-[#0a192f] text-white mb-28">
       <ul>
         <li className="font-bold text-3xl">DevTanvir</li>
       </ul>
@@ -85,7 +85,8 @@ const Navbar = () => {
           </li>
         </ul>
       </div>
-    </div>
+      </div>
+    
   );
 };
 

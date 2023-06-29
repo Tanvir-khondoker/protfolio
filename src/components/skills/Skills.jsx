@@ -20,8 +20,8 @@ const Skills = () => {
         </p>
         <p className="py-4"> These are the technologies I've worked with</p>
       </div>
-      <div className="mx-w-[80%] grid md:grid-cols-2 lg:grid-cols-3 gap-10 text-center py-8">
-        <div className="shadow-md  shadow-[#040c16] hover:scale-110 duration-500">
+      <div className="w-[85%] lg:w-[70] mx-auto grid md:grid-cols-2 lg:grid-cols-3 gap-10 text-center py-8">
+        <div className="shadow-md  shadow-[#040c16] hover:scale-110 duration-500 w-[180px] rounded-3xl ">
           <img
             className="w-20 mx-auto rounded-lg"
             src={javascript}
